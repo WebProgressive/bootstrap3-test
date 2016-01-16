@@ -1,0 +1,111 @@
+/* --- Медіазапити --- */
+
+/* --- => 1920 --- */
+@media (min-width: 1920px){
+	.container {
+    	width: 1918px;
+	}
+	#header {
+		height: 850px;
+		background: url(../images/header-fon-1920.jpg) no-repeat center top;
+
+	}		
+	.container .row{
+		margin: 0 191px;
+	}
+	#header-top{
+		height: 136px;
+	}
+	#header-bottom{
+		width: 870px;
+		height: 715px;
+	}	
+}
+
+/* --- 1280 - 1919 --- */
+@media (max-width: 1919px){
+	.container {
+	    width: 1280px;
+	}
+	.container .row{
+		margin: 0 128px;
+	}
+	/* --- header --- */
+	#header {
+		height: 562px;
+		background: url(../images/header-bg-1280.jpg) no-repeat center top;
+	}
+	#header-top{
+		height: 90px;
+	}
+	#header-bottom{
+		width: 575px;
+		height: 475px;
+	}		
+}	
+
+/* --- 960 - 1280 --- */
+@media (max-width: 1279px){
+	.container {
+    	width: 960px;
+	}
+	/* --- header --- */
+	#header {
+		height: 423px;
+		background: url(../images/header-bg-960.jpg) no-repeat center top;
+	}
+	.container .row{
+		margin: 0 111px;
+	}	
+	#header-top{
+		height: 68px;
+	}
+	#header-bottom{
+		width: 440px;
+		height: 355px;
+	}	
+}
+
+/* --- 768 - 960 --- */
+@media (max-width: 959px){
+	.container {
+    	width: 768px;
+	}
+	/* --- header --- */
+	#header {
+		height: 500px;
+		background: url(../images/header-bg-768.jpg) no-repeat center top;
+	}
+	.container .row{
+		margin: 0 62px;
+	}
+	#header-top{
+		height: 80px;
+	}
+	#header-bottom{
+		height: 430px;
+		width: inherit;
+	}	
+}		
+
+/* --- 1 - 768 --- */
+@media (max-width: 767px){
+	.container {
+    	width: 380px;
+	}
+	/* --- header --- */
+	#header {
+		height: 253px;
+		background: url(../images/header-bg-380.jpg) no-repeat center top;
+	}
+	.container .row{
+		margin: 0 38px;
+	}
+	#header-top{
+		height: 40px;
+	}
+	#header-bottom{
+		height: 210px;
+		width: inherit;
+	}	
+}		
